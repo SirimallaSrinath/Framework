@@ -21,7 +21,7 @@ public class TC_001_NewhireEnroll extends BrowserScript{
 
 	@Test
 	public void newhireEnroll() throws Exception{
-		//URL
+		//URL details
 		driver.get("http://alight:wellbeing23@products.alight.com/demopack/alight_worklife/home.html");
 		Thread.sleep(2000);
 		//Home page
