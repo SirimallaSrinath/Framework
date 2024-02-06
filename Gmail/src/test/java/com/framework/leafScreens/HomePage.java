@@ -26,6 +26,8 @@ public class HomePage {
 	@FindBy(xpath="//span[text()='Dropdown']")
 	private WebElement menu_layout_dropdown = null;
 	
+	@FindBy(xpath="//li[@id='menuform:m_drag']")
+	private WebElement menu_layout_drag = null;
 	
 
 	public void menuitem_submenu_browser() {
@@ -50,6 +52,10 @@ public class HomePage {
 
 	public void menu_layout_frame() {
 		menu_layout_frame.click();
+	}
+	
+	public void menu_layout_drag() {
+		menu_layout_drag.click();
 	}
 
 	public HomePage(WebDriver driver) {
